@@ -1,0 +1,80 @@
+.Return{
+    font-size: 2rem;
+    position: relative;
+    left: 300px;
+    
+}
+body{
+    background-image: url("../img/raphtalia.jpg");
+    background-size: cover;
+}
+#container{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 500px;
+    height: 300px;
+    align-items: flex-end;
+    border: 1px solid black;
+}
+#cube1{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#cube2{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#cube3{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+#cube4{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+#cube5{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+#cube6{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        
+    }
+
+    100%{
+        transform: rotate(360deg);
+        background-color: red;
+    }
+}

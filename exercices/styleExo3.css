@@ -1,0 +1,56 @@
+.Return{
+    font-size: 2rem;
+    position: relative;
+    left: 300px;
+}
+
+body{
+    background-image: url("../img/yumeko.jpg");
+    background-size: cover;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+#rond1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    animation-name: chargement1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#rond2{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    animation-name: chargement2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#rond3{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    animation-name: chargement3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite
+}
+@keyframes chargement1{
+    from{background-color: black;}
+    to{background-color: white;}
+}
+@keyframes chargement2{
+    0%{background-color: grey;}
+    50%{background-color: black;}
+    100%{background-color: white;}
+
+}
+@keyframes chargement3{
+    from{background-color: white;}
+    to{background-color: black;}
+}

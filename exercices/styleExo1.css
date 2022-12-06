@@ -1,0 +1,31 @@
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+        background-color: red;
+    }
+
+
+}
+body{
+    background-image: url("../img/hatsune_heart.webp");
+}
+.carre{
+    
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.Return{
+    font-size: 2rem;
+    position: relative;
+    left: 300px;
+}
